@@ -1,0 +1,59 @@
+atmp_events {
+  transaction {
+    txid: "1bc9755df76f018879decc187a8c1988a5325ea36edf87f0b19f044806a8bfbf"
+    inputs {
+      prev_out {
+        txid: "d000a0000000000000000000000000000000000000tacarriersize"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: ""
+      }
+    }
+    version: 1
+    lock_time: 131072
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "ba5860e9cde3c8af616979f9306749a392de3149b9505eae543503ee531e32ad"
+    inputs {
+      prev_out {
+        txid: "d000a0000000000000000000000000000000000000tacarriersize"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: ""
+      }
+    }
+    version: 1
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+constraints {
+  ancestor_count_limit: 0
+  ancestor_size_limit: 0
+  descendant_count_limit: 0
+  descendant_size_limit: 0
+  max_mempool: 0
+  mempool_expiry: 0
+}
+require_standard: true

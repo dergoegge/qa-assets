@@ -1,0 +1,87 @@
+atmp_events {
+  transaction {
+    txid: "42d86a3033ab2367f84d6fa8d618b22a74acfec2b7acd86289c88af4ff34f023"
+    inputs {
+      prev_out {
+        txid: "7ce7585f03425cea0522e59c0b37698dde8c490e4376f165b5cec9dfd995f9c4"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 512
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 1
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "dffc83a0f8415a5b835e02339b8948052ddc332d4f122703cd814bb03815da86"
+    inputs {
+      prev_out {
+        txid: "9c8b26cc13fd9bc44dd1dc50e58635835773ba729f9d447c7d43f994ec5d1e6"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 512
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 1
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "6eddd0a903acf088c96ebd692954beb9cf2c0f258f36f7cedad5ac577ae0b7b6"
+    inputs {
+      prev_out {
+        txid: "7ce7585f03425cea0522e59c0b37698dde8c490e4376f165b5cec9dfd995f9c4"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 3
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 9
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 1
+    lock_time: 1
+  }
+  rolling_fee_update: true
+  bypass_limits: false
+}
+constraints {
+  ancestor_count_limit: 0
+  ancestor_size_limit: 0
+  descendant_count_limit: 0
+  descendant_size_limit: 0
+  max_mempool: 0
+  mempool_expiry: 0
+}
+require_standard: false

@@ -1,0 +1,111 @@
+atmp_events {
+  transaction {
+    txid: "a2ea04f7916c72d7f471e1eb69e0abaa0a9f1c27d2c1bae24e17eef67a30c695"
+    inputs {
+      prev_out {
+        txid: "52a00000000000000000000000000000000000000000000000000000000000000000000000000000001b5b8302e512ce55064bec362b5912cbc3ba21de18ec223d3024d893a1509"
+        n: 4
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: ""
+      }
+    }
+    version: 0
+    lock_time: 0
+  }
+  rolling_fee_update: false
+  prioritise_delta: 0
+  bypass_limits: false
+}
+atmp_events {
+  transaction {
+    txid: "a2ea04f7916c72d7f471e1eb69e0abaa0a9f1c27d2c1bae24e17eef67a30c695"
+    inputs {
+      prev_out {
+        txid: "52a00000000000000000000000000000000000000000000000000000000000000000000000000000001b5b8302e512ce55064bec362b5912cbc3ba21de18ec223d3024d893a1509"
+        n: 4
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: ""
+      }
+    }
+    version: 0
+    lock_time: 0
+  }
+  mock_time: 1296688638
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "849ddbdbb64064174f5c30b364460ffd16254e7f91cad5056cec3894edf7a713"
+    inputs {
+      prev_out {
+        txid: "52a00000000000000000000000000000000000000000000000000000000000000000000000000000001b5b8302e512ce55064bec362b5912cbc3ba21de18ec223d3024d893a1509"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: ""
+      }
+    }
+    version: 0
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "ce731a20847accd02eb72f595cf051104eef5ff7a07ed91c6e6b2844371fb6bc"
+    inputs {
+      prev_out {
+        txid: "52a00000000000000000000000000000000000000000000000000000000000000000000000000000001b5b8302e512ce55064bec362b591A2cbc3ba21de18ec223d3024d893a1509"
+        n: 4
+      }
+      script_sig {
+        raw: "\340"
+      }
+      sequence: 0
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: ""
+      }
+    }
+    version: 0
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+constraints {
+  ancestor_count_limit: 4
+  ancestor_size_limit: 0
+  descendant_count_limit: 0
+  descendant_size_limit: 8
+  max_mempool: 0
+  mempool_expiry: 0
+}
+require_standard: true

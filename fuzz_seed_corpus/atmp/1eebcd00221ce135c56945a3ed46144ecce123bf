@@ -1,0 +1,51 @@
+atmp_events {
+  transaction {
+    txid: "d9587214e3c55ecc906bf863f2b64b73c02a72800002bae1522bb8ef296a5390"
+    inputs {
+      prev_out {
+        txid: "Q"
+        n: 0
+      }
+      script_sig {
+        raw: "\001uts {\n      prev_out {\n        txid: \"5265fd5c7735d153d0e3343c40a7c841f8a4c055fa37eeaf1a0e2299d948ca04\"\n        n: 0\n      }\n      script_sig {\n        raw: \"XXXXXXXXXwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\\257\"\n      }\n      sequence: 0\n      witness_stack: \"Q\"\n    }\n    outputs {\n      value: 0\n      script_pub_key {\n        raw: \"\\000 J\\350\\025r\\360n\\033\\210\\375\\\\\\355z\\032\\000\\tEC.\\203\\341U\\036or\\036\\351\\300\\013\\214\\3032`\"\n      }\n    }\n    version: 1\n    lock_time: 8\n  }\n  rolling_fee_update: true\n  bypass_limits: true\n}\natmp_events {\n  transaction {\n    txid: \"23fe06fe47e0871ca651550518562955a075d94a31d16317e8b8d17e2bb4ebe6\"\n    inputs {\n      prev_out {\n        txid: \"8270b3686c59e179e06799c0ca889bbc6577a7f714af48a0709107760f9114e0\"\n        n: 0\n      }\n      script_sig {\n        raw: \"\"\n      }\n      sequence: 8\n      witness_stack: \"Q\"\n    }\n    outputs {\n      value: 70650219154374656\n      script_pub_key {\n        raw: \"\\000 J\\350\\025r\\360n\\033\\210\\375\\\\\\355z\\032\\000\\tEC.\\203\\341U\\036or\\036\\351\\300\\013\\214\\3032`\"\n      }\n    }\n    version: 65536\n    lock_time: 20\n  }\n  rolling_fee_update: false\n  bypass_limits: true\n}\n\000\000\217"
+      }
+      sequence: 0
+      witness_stack: "Q"
+    }
+    inputs {
+      prev_out {
+        txid: "Q"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+      witness_stack: "Q"
+    }
+    inputs {
+      prev_out {
+        txid: "Q"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 8
+      witness_stack: "Q"
+    }
+    version: 1
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+constraints {
+  ancestor_count_limit: 0
+  ancestor_size_limit: 1
+  descendant_count_limit: 0
+  descendant_size_limit: 0
+  max_mempool: 1
+  mempool_expiry: 0
+}
+require_standard: true

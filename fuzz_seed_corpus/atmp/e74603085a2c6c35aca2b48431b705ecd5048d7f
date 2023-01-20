@@ -1,0 +1,110 @@
+atmp_events {
+  transaction {
+    txid: "13c16878d5f3ff29d9fc592ba288d5600e7cefd8fc26ae23a697b934511fbdb4"
+    inputs {
+      prev_out {
+        txid: "~"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 0
+    lock_time: 1
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "3ad82a4f2f256a02bd65bcf727e48d97313237e3b860e26ec4a5a18d34cc7591"
+    inputs {
+      prev_out {
+        txid: "~"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "["
+      }
+    }
+    version: -11
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: false
+}
+atmp_events {
+  transaction {
+    txid: "3ad82a4f2f256a02bd65bcf727e48d97313237e3b860e26ec4a5a18d34cc7591"
+    inputs {
+      prev_out {
+        txid: "~"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "["
+      }
+    }
+    version: -11
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "40a54ac339eead7a35ef5ca041b81095e7897d6f6b68706c7413e756a2775c40"
+    inputs {
+      prev_out {
+        txid: "~"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "d356352a243bbc4d962cf080cea16b197ea63664a0608c791179ecbdce27ed4c"
+      }
+    }
+    version: 0
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  prioritise_delta: 0
+  bypass_limits: true
+}
+constraints {
+  ancestor_count_limit: 0
+  ancestor_size_limit: 0
+  descendant_count_limit: 0
+  descendant_size_limit: 0
+  max_mempool: 0
+  mempool_expiry: 0
+}
+require_standard: true

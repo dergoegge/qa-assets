@@ -1,0 +1,109 @@
+atmp_events {
+  transaction {
+    txid: "c024314cde83f3be5ddc04b4c6d5c5fced31b37cb109a46aaca557f2658d0fb8"
+    inputs {
+      prev_out {
+        txid: "973e81fad00000\\000\\000\\000\\000\"\n      }\n      sequence: 779a1"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: ""
+      }
+    }
+    version: 0
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "c8b88741f529cf4c3aa22e078a812ddcbe52137957d76980d518450b23ad28d3"
+    inputs {
+      prev_out {
+        txid: "973e81fad00000\\000\\000\\973e81fad0000  }\n      sequence: 779a1"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: ""
+      }
+    }
+    version: 1
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "c8b88741f529cf4c3aa22e078a812ddcbe52137957d76980d518450b23ad28d3"
+    inputs {
+      prev_out {
+        txid: "973e81fad00000\\000\\000\\973e81fad0000  }\n      sequence: 779a1"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: ""
+      }
+    }
+    version: 1
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "c8b88741f529cf4c3aa22e078a812ddcbe52137957d76980d518450b23ad28d3"
+    inputs {
+      prev_out {
+        txid: "973e81fad00000\\000\\000\\973e81fad0000  }\n      sequence: 779a1"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: ""
+      }
+    }
+    version: 1
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+constraints {
+  ancestor_count_limit: 0
+  ancestor_size_limit: 0
+  descendant_count_limit: 0
+  descendant_size_limit: 0
+  max_mempool: 0
+  mempool_expiry: 0
+}
+require_standard: true

@@ -1,0 +1,34 @@
+atmp_events {
+  transaction {
+    txid: "59ad708bafb6b0d0c387bb7c8e2d26d50c18cdd925d58e3358814b0486570d1d"
+    inputs {
+      prev_out {
+        txid: "0"
+        n: 0
+      }
+      script_sig {
+        raw: "\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000update: true\n  bypass_limits: true\n}\natmp_events {\n  transaction {\n    txid: \"796f710bad2012cf8f128e13fb6d08cd5756c9b6665e2b2b83a3cdefc12d8592\"\n    version: 4194304\n    lock_time: 0\n  }\n  rolling_fee_update: true\n  bypass_limits: false\n}\natmp_events {\n  transaction {\n    txid: \"d084a397bdc3329bb8163742da51c91e3f343dc26a17eeb45f1e6a560f384c58\"\n    outputs {\n      value: 0\n      script_pub_key {\n        raw: \"\\226\"\n      }\n    }\n    version: 0\n    lock_time: 0\n  }\n  rolling_fee_update: true\n  bypass_limits: false\n}\natmp_events {\n  transaction {\n    txid: \"796f710bad2012cf8f128e13fb6d08cd5756c9b6665e2b2b83a3cdefc12d8592\"\n    version: 4194304\n    lock_time: 0\n  }\n  rolling_fee_update: true\n  bypass_limits: false\n}\natmp_events {\n  transaction {\n    txid: \"f0dff8cc6068649e3bed4fd2040c79b47170c0b46f191d1c77e9dd9e63a32bdb\"\n    version: -167772161\n    lock_time: 0\n  }\n  rolling_fee_update: true\n  bypass_limits: false\n}\natmp_events {\n  transaction {\n    txid: \"0f554ab84598246fec61c647984f4c2cec254012a438d0e0d1c6e38e82b622f7\"\n    version: 0\n    lock_time: 58\n  }\n  rolling_fee_update: false\n  bypass_limits: false\n}\natmp_events {\n  transaction {\n    txid: \"f0dff8cc6068649e3bed4fd2040c79b47170c0b46f191d1c77e9dd9e63a32bdb\"\n    version: -167772161\n    lock_time: 0\n  }\n  mock_time: 1296688638\n  rolling_fee_update: true\n  bypass_limits: true\n}\natmp_events {\n  transaction {\n    txid: \"f702453dd03b0f055e5437d76128141803984fb10acb85fc3b2184fae2f3fa78\"\n    version: 0\n    lock_time: 0\n  }\n  rolling_fee_update: true\n  bypass_limits: false\n}\natmp_events {\n  transaction {\n    txid: \"0f554ab84598246fec61c647984f4c2cec254012a438d0e\000\000\000\000\000\000\000\000\000\000\000r\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+      }
+      sequence: 0
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: ""
+      }
+    }
+    version: 1
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+constraints {
+  ancestor_count_limit: 0
+  ancestor_size_limit: 0
+  descendant_count_limit: 0
+  descendant_size_limit: 0
+  max_mempool: 0
+  mempool_expiry: 0
+}
+require_standard: true

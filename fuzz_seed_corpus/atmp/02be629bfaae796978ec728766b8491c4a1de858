@@ -1,0 +1,115 @@
+atmp_events {
+  transaction {
+    txid: "6988a8886ca3df7c16af296392c7d8ef23101e2b4345492768c996de27352b84"
+    inputs {
+      prev_out {
+        txid: "63606f85651cde9242ed3c7483a78392e0e01b832dffa4acb2086b1a3268d1f5"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: ""
+      }
+    }
+    version: 24832
+    lock_time: 16384
+  }
+  rolling_fee_update: true
+  bypass_limits: false
+}
+atmp_events {
+  transaction {
+    txid: "c5d072d7bb6d22c7f473200e7d7fbb4eb03cc6b963fcfdcd1f49edf1eef7410f"
+    inputs {
+      prev_out {
+        txid: "~"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: ""
+      }
+    }
+    version: 24832
+    lock_time: 0
+  }
+  rolling_fee_update: false
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "000906c626680ad1d9f6c102262430324f339fd1376809a44fd4b5ee78560936"
+    inputs {
+      prev_out {
+        txid: "1be57d681f764f774c8cf5bb95bd651d12b72d4b70a9c7c2cf0b679bde90c0cc"
+        n: 0
+      }
+      script_sig {
+        raw: "-"
+      }
+      sequence: 0
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: ""
+      }
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: ""
+      }
+    }
+    version: 24832
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "6988a8886ca3df7c16af296392c7d8ef23101e2b4345492768c996de27352b84"
+    inputs {
+      prev_out {
+        txid: "63606f85651cde9242ed3c7483a78392e0e01b832dffa4acb2086b1a3268d1f5"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: ""
+      }
+    }
+    version: 24832
+    lock_time: 16384
+  }
+  rolling_fee_update: true
+  bypass_limits: false
+}
+constraints {
+  ancestor_count_limit: 0
+  ancestor_size_limit: 0
+  descendant_count_limit: 0
+  descendant_size_limit: 0
+  max_mempool: 0
+  mempool_expiry: 0
+}
+require_standard: true

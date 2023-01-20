@@ -1,0 +1,59 @@
+atmp_events {
+  transaction {
+    txid: "0a15cc0d2ff2a7ff438bbd30087ae6d5ee30b681944c69d5efbf0f97b67d372d"
+    inputs {
+      prev_out {
+        txid: "52a000000000000000000000\234\234\234\234\234000000000000000000000000000000000000000000000001b5b8302e5,2ce55064bec362b5912cbc3ba21de18ec223d3024d893a1509"
+        n: 4
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "-connect"
+      }
+    }
+    version: 2
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "0a15cc0d2ff2a7ff438bbd30087ae6d5ee30b681944c69d5efbf0f97b67d372d"
+    inputs {
+      prev_out {
+        txid: "52a000000000000000000000\234\234\234\234\234000000000000000000000000000000000000000000000001b5b8302e5,2ce55064bec362b5912cbc3ba21de18ec223d3024d893a1509"
+        n: 4
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "-connect"
+      }
+    }
+    version: 2
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+constraints {
+  ancestor_count_limit: 0
+  ancestor_size_limit: 0
+  descendant_count_limit: 0
+  descendant_size_limit: 0
+  max_mempool: 0
+  mempool_expiry: 0
+}
+require_standard: true

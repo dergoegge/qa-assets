@@ -1,0 +1,113 @@
+atmp_events {
+  transaction {
+    txid: "3d1cff8f7b69b805309021309e6eabad2275e2c00da73d0fb074e0e7e30d9bf5"
+    inputs {
+      prev_out {
+        txid: "s"
+        n: 0
+      }
+      script_sig {
+        raw: "M"
+      }
+      sequence: 0
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 1
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "3d1cff8f7b69b805309021309e6eabad2275e2c00da73d0fb074e0e7e30d9bf5"
+    inputs {
+      prev_out {
+        txid: "s"
+        n: 0
+      }
+      script_sig {
+        raw: "M"
+      }
+      sequence: 0
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 1
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "451a2c2321943f454ff924fd406c416eb678d9495a9455168829a4097718fcae"
+    inputs {
+      prev_out {
+        txid: "s"
+        n: 0
+      }
+      script_sig {
+        raw: "M"
+      }
+      sequence: 0
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 5
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 1
+    lock_time: 8
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "59fcd1bca5977326e8f2d669228e7a549e1cadb9e56f10d8023a8693e1e6b475"
+    inputs {
+      prev_out {
+        txid: "s"
+        n: 0
+      }
+      script_sig {
+        raw: "M"
+      }
+      sequence: 0
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 4
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 1
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+constraints {
+  ancestor_count_limit: 2
+  ancestor_size_limit: 0
+  descendant_count_limit: 0
+  descendant_size_limit: 0
+  max_mempool: 0
+  mempool_expiry: 8
+}
+require_standard: true

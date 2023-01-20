@@ -1,0 +1,200 @@
+atmp_events {
+  transaction {
+    txid: "9225dfdffb46719c967a0c3358626f44ba1a366db276536c7b264a1881722c69"
+    inputs {
+      prev_out {
+        txid: "Q"
+        n: 3
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+      witness_stack: "Q"
+    }
+    inputs {
+      prev_out {
+        txid: "Q"
+        n: 1
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+      witness_stack: "Q"
+    }
+    inputs {
+      prev_out {
+        txid: "Q"
+        n: 125
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+      witness_stack: "Q"
+    }
+    inputs {
+      prev_out {
+        txid: "1"
+        n: 1
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+      witness_stack: "Q"
+    }
+    inputs {
+      prev_out {
+        txid: "B"
+        n: 1
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 3
+      witness_stack: "Q"
+    }
+    inputs {
+      prev_out {
+        txid: "Q"
+        n: 7
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 1
+      witness_stack: "Q"
+    }
+    inputs {
+      prev_out {
+        txid: "1"
+        n: 7
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 1
+      witness_stack: "Q"
+    }
+    inputs {
+      prev_out {
+        txid: "4d40ea99ee6ef07fb"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+      witness_stack: "Q"
+    }
+    inputs {
+      prev_out {
+        txid: "1"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+      witness_stack: "Q"
+    }
+    inputs {
+      prev_out {
+        txid: "5555555555550000000000\0170043430"
+        n: 1
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 1
+      witness_stack: "Q"
+    }
+    inputs {
+      prev_out {
+        txid: "Q"
+        n: 5
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+      witness_stack: "Q"
+    }
+    inputs {
+      prev_out {
+        txid: "Q"
+        n: 4
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+      witness_stack: "Q"
+    }
+    inputs {
+      prev_out {
+        txid: "1"
+        n: 3
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 1
+      witness_stack: "Q"
+    }
+    inputs {
+      prev_out {
+        txid: "B"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+      witness_stack: "Q"
+    }
+    inputs {
+      prev_out {
+        txid: "5555555555550000000000\0170043430"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 5
+      witness_stack: "Q"
+    }
+    inputs {
+      prev_out {
+        txid: "."
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 512
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 1
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+constraints {
+  ancestor_count_limit: 0
+  ancestor_size_limit: 0
+  descendant_count_limit: 0
+  descendant_size_limit: 0
+  max_mempool: 4
+  mempool_expiry: 7
+}
+require_standard: true

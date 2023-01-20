@@ -1,0 +1,92 @@
+atmp_events {
+  transaction {
+    txid: "f80cbc75704b86486a88afe0cd54c7fce203411d7e69f4329313731ede77c1a4"
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "limitancestorco"
+      }
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "\000\000\000\000\000\000\000?"
+      }
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: ""
+      }
+    }
+    version: 0
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "15c1bffc71e1331c0a1e0731ab52c3fc4dd0849602cdca309b3e4ee75a8ac9b4"
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "limitancestorco"
+      }
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "\t\000\000\000\000\000\000?"
+      }
+    }
+    outputs {
+      value: 1296688638
+      script_pub_key {
+        raw: "limitancestorco"
+      }
+    }
+    version: 0
+    lock_time: 0
+  }
+  mock_time: 1296688638
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "c5279d2e47d8298b8b24d59b1ca4a85750c5a7bcbae898e3f4fe39b5ccc357d3"
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "limitancestorco"
+      }
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "limitancestorco"
+      }
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "limitancestorco"
+      }
+    }
+    version: 0
+    lock_time: 0
+  }
+  mock_time: 1296688638
+  rolling_fee_update: true
+  bypass_limits: true
+}
+constraints {
+  ancestor_count_limit: 0
+  ancestor_size_limit: 0
+  descendant_count_limit: 0
+  descendant_size_limit: 0
+  max_mempool: 0
+  mempool_expiry: 0
+}
+require_standard: true

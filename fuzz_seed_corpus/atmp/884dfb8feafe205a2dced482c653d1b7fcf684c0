@@ -1,0 +1,9 @@
+constraints {
+  ancestor_count_limit: 7102208
+  ancestor_size_limit: 2097152
+  descendant_count_limit: 33
+  descendant_size_limit: 4238344192
+  max_mempool: 4238344192
+  mempool_expiry: 58
+}
+require_standard: true

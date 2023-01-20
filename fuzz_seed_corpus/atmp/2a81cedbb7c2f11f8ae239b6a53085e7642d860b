@@ -1,0 +1,128 @@
+atmp_events {
+  transaction {
+    txid: "4e0b58349975dc2b32428525f49f799ec7b9ef8bf2a173644d948b52dc30ff96"
+    inputs {
+      prev_out {
+        txid: "~"
+        n: 0
+      }
+      script_sig {
+        raw: "limitdescendantcou\226"
+      }
+      sequence: 0
+    }
+    inputs {
+      prev_out {
+        txid: "~"
+        n: 0
+      }
+      script_sig {
+        raw: "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377r"
+      }
+      sequence: 2949120
+    }
+    inputs {
+      prev_out {
+        txid: "~"
+        n: 0
+      }
+      script_sig {
+        raw: "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377r"
+      }
+      sequence: 0
+    }
+    inputs {
+      prev_out {
+        txid: "~"
+        n: 0
+      }
+      script_sig {
+        raw: "limitdescendantcou\226"
+      }
+      sequence: 0
+    }
+    inputs {
+      prev_out {
+        txid: "~"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+    }
+    version: 0
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "8f4471352edbe63db9ffe0b8e488083824a828388526e609946ab2cf9ec0c0b7"
+    inputs {
+      prev_out {
+        txid: "~<"
+        n: 0
+      }
+      script_sig {
+        raw: "limitdescendantcou\226"
+      }
+      sequence: 0
+    }
+    inputs {
+      prev_out {
+        txid: "~"
+        n: 0
+      }
+      script_sig {
+        raw: "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377r"
+      }
+      sequence: 0
+    }
+    inputs {
+      prev_out {
+        txid: "~<"
+        n: 0
+      }
+      script_sig {
+        raw: "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377r"
+      }
+      sequence: 0
+    }
+    inputs {
+      prev_out {
+        txid: "~"
+        n: 0
+      }
+      script_sig {
+        raw: "limitdescendantcou\226"
+      }
+      sequence: 0
+      witness_stack: "~"
+    }
+    inputs {
+      prev_out {
+        txid: "~"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+    }
+    version: 0
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+constraints {
+  ancestor_count_limit: 0
+  ancestor_size_limit: 0
+  descendant_count_limit: 64
+  descendant_size_limit: 0
+  max_mempool: 0
+  mempool_expiry: 0
+}
+require_standard: true

@@ -1,0 +1,113 @@
+atmp_events {
+  transaction {
+    txid: "3d7627db8185257b1683045de96527f9a96df76e8d3427d1ee52c612174b5100"
+    inputs {
+      prev_out {
+        txid: "d000a0000000000000000000000000000000000000000-ce"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 1
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "3d7627db8185257b1683045de96527f9a96df76e8d3427d1ee52c612174b5100"
+    inputs {
+      prev_out {
+        txid: "d000a0000000000000000000000000000000000000000-ce"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 1
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "1f7466c54c02b6fcdd9acc87834e35a93cc54552a0cf232e3150ef6351e85763"
+    inputs {
+      prev_out {
+        txid: "d000a0000000000000000000000000000000000000000-conn000iersize"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 2
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 1
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "3d7627db8185257b1683045de96527f9a96df76e8d3427d1ee52c612174b5100"
+    inputs {
+      prev_out {
+        txid: "d000a0000000000000000000000000000000000000000-ce"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 1
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+constraints {
+  ancestor_count_limit: 2
+  ancestor_size_limit: 0
+  descendant_count_limit: 0
+  descendant_size_limit: 0
+  max_mempool: 0
+  mempool_expiry: 0
+}
+require_standard: true

@@ -1,0 +1,61 @@
+atmp_events {
+  transaction {
+    txid: "40da0bb1f791a13b5ae1c68f6265080359a7c15ba83e40b7ddddd6a0685cba35"
+    inputs {
+      prev_out {
+        txid: "9c8b26cc13fd9bc44dd1dc50e58635835773ba729f9d447c7d43f994ec5d1e6"
+        n: 0
+      }
+      script_sig {
+        raw: "tv"
+      }
+      sequence: 6
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 8
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 0
+    lock_time: 6
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "40da0bb1f791a13b5ae1c68f6265080359a7c15ba83e40b7ddddd6a0685cba35"
+    inputs {
+      prev_out {
+        txid: "9c8b26cc13fd9bc44dd1dc50e58635835773ba729f9d447c7d43f994ec5d1e6"
+        n: 0
+      }
+      script_sig {
+        raw: "tv"
+      }
+      sequence: 6
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 8
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 0
+    lock_time: 6
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+constraints {
+  ancestor_count_limit: 0
+  ancestor_size_limit: 0
+  descendant_count_limit: 4
+  descendant_size_limit: 0
+  max_mempool: 0
+  mempool_expiry: 6
+}
+require_standard: false

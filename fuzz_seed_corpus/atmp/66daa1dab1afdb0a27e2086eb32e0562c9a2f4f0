@@ -1,0 +1,97 @@
+atmp_events {
+  transaction {
+    txid: "f702453dd03b0f055e5437d76128141803984fb10acb85fc3b2184fae2f3fa78"
+    version: 0
+    lock_time: 0
+  }
+  rolling_fee_update: false
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "eba1c5fcff1557935809cb9d1beaa2a35b358ff8a79a9d12418be36d872d7d7b"
+    inputs {
+      prev_out {
+        txid: "e0806317c61e443340283ce62ef753ddab9567216d47f0e0802e56bc82a2aaec"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 1
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "51037d8162bd9eb2221bf349caa95a78db3b14355b62ea3a7b7d766ec1f97a7b"
+    inputs {
+      prev_out {
+        txid: "217d89aca9700dfae3b871f69315b4f4aa2d0413cf8c667c540d82d9db13a6fd"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 4
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 524288
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 1
+    lock_time: 122
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "667e388aa33717734766125521ecfd9463eda6560e0260a6188c382d1dff3f6c"
+    inputs {
+      prev_out {
+        txid: "18b76b7fb9678ee09f51d051c3b8428ebddfafb3fca629e3c7b73e07f522b373"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 1
+    lock_time: 0
+  }
+  mock_time: 4294967295
+  rolling_fee_update: true
+  bypass_limits: false
+}
+constraints {
+  ancestor_count_limit: 0
+  ancestor_size_limit: 0
+  descendant_count_limit: 0
+  descendant_size_limit: 0
+  max_mempool: 4
+  mempool_expiry: 0
+}
+require_standard: false

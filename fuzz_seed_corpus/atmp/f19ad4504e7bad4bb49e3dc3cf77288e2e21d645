@@ -1,0 +1,98 @@
+atmp_events {
+  transaction {
+    txid: "a8c2204abacaeaa8a1f6b31185d3af732e2a564f835ec2f4206d06edd0398c97"
+    inputs {
+      prev_out {
+        txid: "5548a29afa3f3199fe7ea2fff44dd4132c6b50a847ccabe2a2400b591991f33e"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 4294967295
+      witness_stack: "Q"
+    }
+    inputs {
+      prev_out {
+        txid: "9c8b26cc13fd9bc44dd1dc50e58635835773ba729f9d447c7d43f994ec5d1e6"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 4294967295
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 9
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 2
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "ef0af5043df7c9840ea88a1c316615f3a93959bfa3d01ce339f459ee18b24938"
+    inputs {
+      prev_out {
+        txid: "9c8b26cc13fd9bc44dd1dc50e58635835773ba729f9d447c7d43f994ec5d1e6"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 2
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 2
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "f0f88fa99cacf5134675b4f7dbf29c14a511ba02f24f7f8daa8ba39927883dd6"
+    inputs {
+      prev_out {
+        txid: "9c8b26cc13fd9bc44dd1dc50e58635835773ba729f9d447c7d43f994ec5d1e6"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 1
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 2
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+constraints {
+  ancestor_count_limit: 0
+  ancestor_size_limit: 0
+  descendant_count_limit: 6
+  descendant_size_limit: 0
+  max_mempool: 1
+  mempool_expiry: 1
+}
+require_standard: false

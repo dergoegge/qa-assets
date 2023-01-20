@@ -1,0 +1,28 @@
+atmp_events {
+  transaction {
+    txid: "2d806ca7ea946dad1b3914660417068f5515a2617b72eeadb17daedb4d800803"
+    inputs {
+      prev_out {
+        txid: "~"
+        n: 0
+      }
+      script_sig {
+        raw: "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377ed90555e71f38e560f64dc707dd719aaef15fe3bbdd52f4d443\"\n    inputs {\n      prev_out {\n        txid: \"be399e4cad3361a483a157adc4cf32322a03eaad3e9dcad86a2f0947eaf08386\"\n        n: 0\n      }\n      script_sig {\n        raw: \"\\000\\000\\000\\000\\000\\000\\000?\"\n      }\n      sequence: 0\n    }\n    inputs {\n      prev_out {\n        txid: \"be399e4cad3361a483a157adc4cf32322a03eaad3e9dcad86a2f0947eaf08386\"\n        n: 0\n      }\n      script_sig z\n        raw: \"\"\n      }\n      sequence: 0\n    }\n    version: 0\n    lock_time: 64\n  }\n  rolling_fee_update: true\n  bypass_limits: false\n}\natmp_events {\n  transaction {\n    txid: \"29681d5144fd700dd704bc31a5f54626fb7f55622c534dc36e7b8a78a525dd96\"\n    inputs {\n      prev_out {\n        txid: \"6755ec7048e7e972967a85b452808b58008cbb5afe398dbd5ca0b31573b9b099\"\n        n: 0\n      }\n      script_sig {\n        raw: \"\\226\"\n      }\n      sequence: 0\n    }\n    inputs {\n      prev_out {\n        txid: \"6755ec7048e7e972967a85b452808b58008cbb5afe398dbd5ca0b31573b9b099\"\n        n: 0\n      }\n      script_sig {\n        raw: \"\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377r\"\n      }\n      sequence: 0\n    }\n    inputs {\n      prev_out {\n        txid: \"0cea2df80aea9a44b4cf2e4e789aaa7e0d63da071aca00cdbb2c180a4e702231\"\n        n: 0\n      }\n      script_sig {\n        raw: \"\"\n      }\n      sequence: 0\n    }\n    inputs {\n      prev_out {\n        txid: \"614435bca9d598e47eed775ab46c5b91556ccfd6a1fffd3966cf5ea302b89cbb\"\n        n: 64\n      }\n      script_sig {\n        raw: \"\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377r\"\n      }\n      sequence: 0\n    }\n    inputs {\n      prev_out {\n        txid: \"255dcb495fac1938a89e600410eba70959fbd96caccac7cd5\"\n        n: 64\n      }\n      script_sig {\n        raw: \"\"\n      }\n      sequence: 0\n      witness_stack: \"\"\n      witness_stack: \"m\"\n    }\n    version: 0\n    lock_time: 0\n  }\n  mock_time: 4294967295\n  rolling_fee_update: true\n  bypass_limits: true\n}\nconstraints {\n  ancestor_count_limit: 0\n  ancestor_size_limit: 0\n  descendant_count_limit: 0\n  descendant_size_limit: 0\n  max_mempool: 0\n  mempool_expiry: 0\n}\nrequire\377\377\377\377r"
+      }
+      sequence: 0
+    }
+    version: 1
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+constraints {
+  ancestor_count_limit: 0
+  ancestor_size_limit: 0
+  descendant_count_limit: 0
+  descendant_size_limit: 0
+  max_mempool: 0
+  mempool_expiry: 0
+}
+require_standard: true

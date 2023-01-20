@@ -1,0 +1,35 @@
+atmp_events {
+  transaction {
+    txid: "0d77379360dba1fb1f70bebb50adf3d85de23d924ca2f6a43ec012202da18fab"
+    inputs {
+      prev_out {
+        txid: "9c8b26cc13fd9bc44dd1dc50e58635835773ba729f9d447c7d43f994ec5d1e6"
+        n: 0
+      }
+      script_sig {
+        raw: "M\000\000M\000\000\000\004\000\000\000\000\257\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\nRn\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\natmp_events {\n  transaction {\n    txid: \"5fcca4f4977d42c21d0dd9087d601850c0f3d38e6331173e43d7c58e3d428144\"\n    inputs {\n      prev_out {\n        txid: \"7a9bbe65be4377d406e122c31ec06159c5db2fb15f0e109ae0fbc9f9ec3a4c37\"\n        n: 0\n      }\n      script_sig {\n        raw: \"TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}97ef462ad3bff138ada48667\"\n        n: 0\n      }\n      script_sig {\n        raw: \"\"\n      }\n      sequence: 0\n      witness_stack: \"Q\"\n    }\n    inputs {\n      prev_out {\n        txid: \"b96d00ca37364715ecacd4c00ad7f827ace6cb014761df86323a969422556aae\"\n        n: 0\n      }\n      script_sig {\n        raw: \"\"\n      }\n      sequence: 0\n      witnessrev_out {\n        txid: \"7229952a37e64babcd6a98405861ce3b67dafd3b9365b30ccaff6cb1bbeff956\"\n        n: 0\n      }\n      script_sig {\n      me: 9898\257 \00055744\n  }\n  rolling_fee_update: true\n \000 bypass_limits: true\n}\nconstraints {\n  ancestor_count_limit: 0\n  ancestor_size_limit: 0\n  descendant_count_limit: 0\n  descendant_size_limit: 7\n  max_mempool: 0\n  mempool_expiry: 4\n}\nrequire_standard: false\n"
+      }
+      sequence: 0
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 0
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+constraints {
+  ancestor_count_limit: 0
+  ancestor_size_limit: 0
+  descendant_count_limit: 1
+  descendant_size_limit: 0
+  max_mempool: 0
+  mempool_expiry: 0
+}
+require_standard: false

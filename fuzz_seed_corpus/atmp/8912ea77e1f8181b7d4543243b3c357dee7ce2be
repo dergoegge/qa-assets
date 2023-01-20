@@ -1,0 +1,38 @@
+atmp_events {
+  transaction {
+    txid: "20f873fa2e6d8e967900d5a3e1f9d616cf00161c2513ac905d19d8967f256a3f"
+    inputs {
+      prev_out {
+        txid: "\014@~"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 1
+    }
+    inputs {
+      prev_out {
+        txid: "\014@~"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 1
+    }
+    version: 1
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+constraints {
+  ancestor_count_limit: 0
+  ancestor_size_limit: 0
+  descendant_count_limit: 0
+  descendant_size_limit: 0
+  max_mempool: 0
+  mempool_expiry: 0
+}
+require_standard: true

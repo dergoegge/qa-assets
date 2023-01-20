@@ -1,0 +1,35 @@
+atmp_events {
+  transaction {
+    txid: "040642d77a425c7eb6d6fcd03fe9eac8c86a3ad6544ba02400d7970d3736190b"
+    inputs {
+      prev_out {
+        txid: "9c8b26cc13fd9bc44dd1dc50e58635835773ba729f9d447c7d43f994ec5d1e6"
+        n: 0
+      }
+      script_sig {
+        raw: "\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\256\256\256\256RQQR}\256%\256\256\256\256\256\256\256\256\256\256\256\256\256\256\256\256\256\256\256\256\256\256\256\256\256\256_\256\256\256\256-\256\256\022QQQQQQN\256\256\256\256\256\256\256\256O\000\000\000\256"
+      }
+      sequence: 0
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 0
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+constraints {
+  ancestor_count_limit: 8
+  ancestor_size_limit: 0
+  descendant_count_limit: 4
+  descendant_size_limit: 2
+  max_mempool: 0
+  mempool_expiry: 4
+}
+require_standard: false

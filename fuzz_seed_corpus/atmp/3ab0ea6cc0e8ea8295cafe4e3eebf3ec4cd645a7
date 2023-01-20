@@ -1,0 +1,29 @@
+atmp_events {
+  transaction {
+    txid: "93cf76e2bba67a33c67fe32c852fb11acfeded76205e7f07c50566214734c787"
+    inputs {
+      prev_out {
+        txid: "z"
+        n: 0
+      }
+      script_sig {
+        raw: "\377\377\377\377\377\377\"\n    version: 0\n    lock_time: 0\n  }\n  rolling_fee_updquence: 0\n      witness_stack: \"Q\"\n    }\n    inputs {\n      prev_out {\n        txid: \"d001a441917fdf4b0bf904fe05de21bd6a9964ad97ef462ad3bff138ada48667\"\n        n: 0\n      }\n      script_sig {\n        raw: \"\"\n      }\n      sequence: 0\n      witness_stack: \"Q\"\n    }\n    inputs {\377\377\377\377\377\377"
+      }
+      sequence: 9
+      witness_stack: "Q"
+    }
+    version: 0
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+constraints {
+  ancestor_count_limit: 0
+  ancestor_size_limit: 9
+  descendant_count_limit: 0
+  descendant_size_limit: 0
+  max_mempool: 0
+  mempool_expiry: 9
+}
+require_standard: true

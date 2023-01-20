@@ -1,0 +1,87 @@
+atmp_events {
+  transaction {
+    txid: "1466c39b3466ae54af430016f25b5f2b0b2c13b9ea115c886ec50381f232cac7"
+    inputs {
+      prev_out {
+        txid: "d925626975d73bd782c38ce1eed34aed6eee030680271e7982197873289c747f"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 6634341
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 2
+    lock_time: 4
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "1466c39b3466ae54af430016f25b5f2b0b2c13b9ea115c886ec50381f232cac7"
+    inputs {
+      prev_out {
+        txid: "d925626975d73bd782c38ce1eed34aed6eee030680271e7982197873289c747f"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 6634341
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 2
+    lock_time: 4
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "1466c39b3466ae54af430016f25b5f2b0b2c13b9ea115c886ec50381f232cac7"
+    inputs {
+      prev_out {
+        txid: "d925626975d73bd782c38ce1eed34aed6eee030680271e7982197873289c747f"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 6634341
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 2
+    lock_time: 4
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+constraints {
+  ancestor_count_limit: 0
+  ancestor_size_limit: 0
+  descendant_count_limit: 0
+  descendant_size_limit: 0
+  max_mempool: 0
+  mempool_expiry: 0
+}
+require_standard: false

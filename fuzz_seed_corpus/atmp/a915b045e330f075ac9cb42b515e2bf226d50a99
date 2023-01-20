@@ -1,0 +1,112 @@
+atmp_events {
+  transaction {
+    txid: "da2b29d79b18a0f4386a793703b88ffb212f63e8ff44e050febeee8a4cb53621"
+    inputs {
+      prev_out {
+        txid: "~"
+        n: 0
+      }
+      script_sig {
+        raw: "ipt_pub_key {\n     txid: \"a4bbbc7d91e1f332e272d2fb4948831f7275415dde72afb5181d253}\n    }\n %  version: 24832\n  99229414  lock_ta\""
+      }
+      sequence: 65536
+      witness_stack: "\020\000\000\000\000\000\000\000"
+    }
+    inputs {
+      prev_out {
+        txid: "z"
+        n: 0
+      }
+      script_sig {
+        raw: "ipt_pub_key {\n     txid: \"a4bbbc7d91e1f332e272d2fb4948831f7275415dde72afb5181d253}\n    }\n %  version: 24832\n  99229414  lock_ta\""
+      }
+      sequence: 0
+    }
+    inputs {
+      prev_out {
+        txid: "~"
+        n: 0
+      }
+      script_sig {
+        raw: "ipt_pub_key {\n        raw: \"A\"\n      atmp_events {\n  transaction {\n    txid: \"a4bbbc7d91e1f332e272d2fb4948831f7275415dde7\262afb5181d253}\n    }\n %  version: 24832\n  99229414  lock_ta\""
+      }
+      sequence: 0
+    }
+    version: 0
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "475f1e16407e18895eca4e698cb6c8cef477f25ff618f5e2965b4d5573e7ffe3"
+    inputs {
+      prev_out {
+        txid: "c26cd96342ce2b2c8a84292440faa813cbfeda816253cf096d66334815f6cd32"
+        n: 0
+      }
+      script_sig {
+        raw: "ipt_pub_key {\n     txid: \"a4bbbc7d91e1f332e272d2fb4948831f7275415dde72afb5181d253}\n    }\n %  version: 24832\n  99229414  lock_ta\""
+      }
+      sequence: 0
+    }
+    inputs {
+      prev_out {
+        txid: "~"
+        n: 0
+      }
+      script_sig {
+        raw: "ipt_pub_key {\n     txid: \"a4bbbc7d91e1f332e272d2fb4948831f7275415dde72afb5181d253}\n    }\n %  version: 24832\n  99229414  lock_ta\""
+      }
+      sequence: 0
+    }
+    inputs {
+      prev_out {
+        txid: "~"
+        n: 0
+      }
+      script_sig {
+        raw: "ipt_pub_key {\n     txid: \"a4bbbc7d91e1f332e272d2fb4948831f7275415dde72afb5181d253}\n    }\n %  version: 24832\n  99229414  lock_ta\""
+      }
+      sequence: 256
+      witness_stack: "~"
+      witness_stack: ""
+    }
+    inputs {
+      prev_out {
+        txid: "~"
+        n: 0
+      }
+      script_sig {
+        raw: "ipt_pub_key {\n     txid: \"a4bbbc7d91e1f332e272d2fb4948831f7275415dde72afb5181d253}\n    }\n %  version: 24832\n  99229414  lock_ta\""
+      }
+      sequence: 0
+    }
+    inputs {
+      prev_out {
+        txid: "c26cd96342ce2b2c8a84292440faa813cbfeda816253cf096d66334815f6cd32"
+        n: 0
+      }
+      script_sig {
+        raw: "ipt_pub_key {\n     txid: \"a4bbbc7d91e1f332e272d2fb4948831f7275415dde72afb5181d253}\n    }\n %  version: 24832\n  99229414  lock_ta\""
+      }
+      sequence: 65536
+    }
+    version: 0
+    lock_time: 0
+  }
+  mock_time: 1296688638
+  rolling_fee_update: true
+  prioritise_delta: 120346611023872
+  bypass_limits: false
+}
+constraints {
+  ancestor_count_limit: 0
+  ancestor_size_limit: 0
+  descendant_count_limit: 0
+  descendant_size_limit: 0
+  max_mempool: 0
+  mempool_expiry: 0
+}
+require_standard: true

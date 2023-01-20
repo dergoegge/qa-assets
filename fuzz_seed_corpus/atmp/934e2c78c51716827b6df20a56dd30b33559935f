@@ -1,0 +1,87 @@
+atmp_events {
+  transaction {
+    txid: "989ce5157ab79283217d91ee53662834eb12fa06629c43dcad7d80b18ee62fc6"
+    inputs {
+      prev_out {
+        txid: "8b3342b6e0f75d3e69bae78874b5d63a06dc6fb17753c49939a7793b41aa976b"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 2
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 512
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 1
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "997b5e15a66fc3244f997ce54076cdc2eb468929cb3b6ca214acc01a7134daaa"
+    inputs {
+      prev_out {
+        txid: "9c8b26cc13fd9bc44dd1dc50e58635835773ba729f9d447c7d43f994ec5d1e6"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 4
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 1
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "940c4e6eb17b74ed8f4b6a94ccd0a787207c848761819b4393efd46d84cbe63f"
+    inputs {
+      prev_out {
+        txid: "8b3342b6e0f75d3e69bae78874b5d63a06dc6fb17753c49939a7793b41aa976b"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 7
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 1
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+constraints {
+  ancestor_count_limit: 0
+  ancestor_size_limit: 0
+  descendant_count_limit: 7
+  descendant_size_limit: 0
+  max_mempool: 7
+  mempool_expiry: 0
+}
+require_standard: false

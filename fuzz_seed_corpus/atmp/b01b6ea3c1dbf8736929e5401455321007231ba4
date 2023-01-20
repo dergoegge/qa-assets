@@ -1,0 +1,107 @@
+atmp_events {
+  transaction {
+    txid: "1fc6e6a1abca5068cf8bfe552b1e9abd20777175d4eba01c4501e1cda1bf30ff"
+    inputs {
+      prev_out {
+        txid: "~"
+        n: 0
+      }
+      script_sig {
+        raw: "j"
+      }
+      sequence: 0
+    }
+    inputs {
+      prev_out {
+        txid: "j"
+        n: 4
+      }
+      script_sig {
+        raw: "j"
+      }
+      sequence: 4
+    }
+    inputs {
+      prev_out {
+        txid: "~"
+        n: 0
+      }
+      script_sig {
+        raw: "t"
+      }
+      sequence: 0
+    }
+    inputs {
+      prev_out {
+        txid: "~"
+        n: 0
+      }
+      script_sig {
+        raw: "t"
+      }
+      sequence: 0
+    }
+    version: 0
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "4426cb28a964ab83ef355088e2ba99a93d0fd93d3dff2ff3b1b98ea041f83f0c"
+    inputs {
+      prev_out {
+        txid: "~"
+        n: 0
+      }
+      script_sig {
+        raw: "j"
+      }
+      sequence: 0
+    }
+    inputs {
+      prev_out {
+        txid: "j"
+        n: 4
+      }
+      script_sig {
+        raw: "j"
+      }
+      sequence: 4
+    }
+    inputs {
+      prev_out {
+        txid: "~"
+        n: 0
+      }
+      script_sig {
+        raw: "j"
+      }
+      sequence: 0
+    }
+    inputs {
+      prev_out {
+        txid: "~"
+        n: 0
+      }
+      script_sig {
+        raw: "j"
+      }
+      sequence: 0
+    }
+    version: 0
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+constraints {
+  ancestor_count_limit: 0
+  ancestor_size_limit: 0
+  descendant_count_limit: 0
+  descendant_size_limit: 0
+  max_mempool: 0
+  mempool_expiry: 0
+}
+require_standard: true

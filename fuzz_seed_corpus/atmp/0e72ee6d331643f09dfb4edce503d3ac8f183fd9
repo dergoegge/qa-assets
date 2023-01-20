@@ -1,0 +1,127 @@
+atmp_events {
+  transaction {
+    txid: "ab01e1e1d08396f80b59e1c7220450dbb1172b881e03cf00ba0f396a8ecf1e67"
+    inputs {
+      prev_out {
+        txid: "~"
+        n: 0
+      }
+      script_sig {
+        raw: "\226constraints {\n  a.cestor_count_limit: 7102207\n  ancestor_size_limit: 2097152\n  descendant_count_limit: 33\n  descendant_sizelimitancestorcount\n  max_mempool: 4238344192\n  mempool_expiry: 58\n}\nrequire_standard: true\n"
+      }
+      sequence: 0
+    }
+    inputs {
+      prev_out {
+        txid: "~"
+        n: 0
+      }
+      script_sig {
+        raw: "\226constraints {\n  a.cestor_count_limit: 7102207\n  ancestor_size_limit: 2097152\n  descendant_count_limit: 33\n  descendant_size_limit: 4238344192\n  max_mempool: 4238344192\n  mempool_expiry: 58\n}\nrequire_standard: true\n"
+      }
+      sequence: 0
+    }
+    inputs {
+      prev_out {
+        txid: "s"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+    }
+    inputs {
+      prev_out {
+        txid: "~"
+        n: 0
+      }
+      script_sig {
+        raw: "\226constraints {\n  a.cestor_count_limit: 7102207\n  ancestor_size_limit: 2097152\n  descendant_count_limit: 33\n  descendant_sizelimitancestorcount\n  max_mempool: 4238344192\n  mempool_expiry: 58\n}\nrequire_standard: true\n"
+      }
+      sequence: 0
+    }
+    inputs {
+      prev_out {
+        txid: "~"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 5
+    }
+    version: 0
+    lock_time: 20
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "a5d5eaf2b4498a1b723eeaa5ac9d3ad7477bb0fee8816bac8eff13f0b44f25d2"
+    inputs {
+      prev_out {
+        txid: "?"
+        n: 0
+      }
+      script_sig {
+        raw: "\226constraints {\n  ancestor_count_limit: 7102207\n  ancestdant_count_limit: 33\n  descendant_size_limit: 4238344192\n  max_mempool: 4238344192\n  mempool_expiry: 58\n}\nrequire_standard: true\n"
+      }
+      sequence: 0
+    }
+    inputs {
+      prev_out {
+        txid: "~"
+        n: 0
+      }
+      script_sig {
+        raw: "\226constraints {\n  a.cestor_count_limit: 7102207\n  ancestor_size_limit: 2097152\n  descendant_count_limit: 33\n  descendant_size_limit:58\n}\nrequire_standard: true\n"
+      }
+      sequence: 4
+    }
+    inputs {
+      prev_out {
+        txid: "~"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 4
+    }
+    inputs {
+      prev_out {
+        txid: "?"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+    }
+    inputs {
+      prev_out {
+        txid: "s"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+    }
+    version: 0
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+constraints {
+  ancestor_count_limit: 0
+  ancestor_size_limit: 0
+  descendant_count_limit: 0
+  descendant_size_limit: 0
+  max_mempool: 0
+  mempool_expiry: 0
+}
+require_standard: true

@@ -1,0 +1,35 @@
+atmp_events {
+  transaction {
+    txid: "0fc66d67c2ec575e93dda005f802c8222a6bb61796c78aa758954ed4218dc03c"
+    inputs {
+      prev_out {
+        txid: "9c8b26cc13fd9bc44dd1dc50e58635835773ba729f9d447c7d43f994ec5d1e6"
+        n: 0
+      }
+      script_sig {
+        raw: "M\000\000M\000\000\000\004\000\000\000\000\257\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\natmp_eve      witness_stack: \"Q\"\n    }\n    inputs {\n      prev_out {\n        txid: \"499373f4e48a910312fad6e7bc548ee51355be8484fc4ac69d05cf55f0834d27\"\n        n: 0\n      }\n      script_sig {\n        raw: \"\"\n      }\n      sequence: 4\n      witness_stack: \"Q\"\n    }\n    nsaction {\n    txid: \"1100db9862a0d165646d92dd9132da7158a6883087a1ffec75ba4c0448fe6bea\"\n    inputs {\n      prev_out {\n        txid: \"adf5585ee14bd5ac22b7e6212229c8a4083539c139standard: false\n"
+      }
+      sequence: 4
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 0
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+constraints {
+  ancestor_count_limit: 4
+  ancestor_size_limit: 0
+  descendant_count_limit: 0
+  descendant_size_limit: 0
+  max_mempool: 0
+  mempool_expiry: 0
+}
+require_standard: false

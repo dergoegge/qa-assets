@@ -1,0 +1,87 @@
+atmp_events {
+  transaction {
+    txid: "aed189878a9dd70d66d05a025e15b244b33afd9451453df30f0cb19a6d51262c"
+    inputs {
+      prev_out {
+        txid: "52aeeeeeeeeeeeee00000000000000000000000000000\0000eeeeeeeeee0000\000"
+        n: 4
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 8
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 1
+    lock_time: 4
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "b1bcd2817332da7bcdfa922a8907c83c0ce15bf21e07518612b575b351b6e668"
+    inputs {
+      prev_out {
+        txid: "52aeeeeeeeeeeeee00000000000000000000000000000\0000eeeeeeeeee0000\000"
+        n: 4
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 1
+    lock_time: 4
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "b1bcd2817332da7bcdfa922a8907c83c0ce15bf21e07518612b575b351b6e668"
+    inputs {
+      prev_out {
+        txid: "52aeeeeeeeeeeeee00000000000000000000000000000\0000eeeeeeeeee0000\000"
+        n: 4
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 1
+    lock_time: 4
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+constraints {
+  ancestor_count_limit: 0
+  ancestor_size_limit: 0
+  descendant_count_limit: 0
+  descendant_size_limit: 0
+  max_mempool: 0
+  mempool_expiry: 0
+}
+require_standard: true

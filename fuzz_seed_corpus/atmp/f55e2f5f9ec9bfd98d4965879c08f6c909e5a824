@@ -1,0 +1,40 @@
+atmp_events {
+  transaction {
+    txid: "1633f751772cf0da2ea12f8e084618ea9096778562d473ffbf8d3229ef255939"
+    inputs {
+      prev_out {
+        txid: "~"
+        n: 0
+      }
+      script_sig {
+        raw: "7atmp_events {\n  transaction {\n    txid: \"3ae03044235fb922051a9d8eea768e799dccec80d64abad0ac053810692aabab\"\n    inputs {\n      prev_out {\n        txid: \"*\"\n        n: 0\n      }\n      script_sig {\n        raw: \"\"\n      }\n      sequence: 0\n      witness_stack: \"5f3a06c43d80765050c20d98fa0c365d40e7d0865718195cd47a54ac4237304e\"\n    }\n    outputs {\n      value: 0\n      script_pub_key {\n        raw: \"7\"\n      }\n    }\n    outputs {\n      value: 0\n      script_pub_key {\n        raw: \"*\"\n      }\n    }\n    version: 0\n    lock_time: 0\n  }\n  mock_time: 1296688638\n  rolling_fee_update: true\n  bypass_limits: true\n}\nconstraints {\n  ancestor_count_limit: 0\n  ancestor_size_limit: 0\n  descendant_count_limit: 0\n  descendant_size_limit: 0\n  max_mempool: 0\n  mempool_expiry: 0\n}\nrequire_standard: true\n"
+      }
+      sequence: 0
+      witness_stack: "Q"
+    }
+    inputs {
+      prev_out {
+        txid: "~"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+      witness_stack: "Q"
+    }
+    version: 0
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+constraints {
+  ancestor_count_limit: 0
+  ancestor_size_limit: 0
+  descendant_count_limit: 0
+  descendant_size_limit: 0
+  max_mempool: 0
+  mempool_expiry: 0
+}
+require_standard: true

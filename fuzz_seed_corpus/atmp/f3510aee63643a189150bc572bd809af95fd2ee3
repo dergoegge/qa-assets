@@ -1,0 +1,98 @@
+atmp_events {
+  transaction {
+    txid: "3259e27191dbe4c88d175beb114a9e8dd8ce1f29d7bec01de9f9b45678b779c0"
+    inputs {
+      prev_out {
+        txid: "9c8b26cc13fd9bc44dd1dc50e58635835773ba729f9d447c7d43f994ec5d1e6"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 0
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "f702453dd03b0f055e5437d76128141803984fb10acb85fc3b2184fae2f3fa78"
+    version: 0
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "f702453dd03b0f055e5437d76128141803984fb10acb85fc3b2184fae2f3fa78"
+    version: 0
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "f702453dd03b0f055e5437d76128141803984fb10acb85fc3b2184fae2f3fa78"
+    version: 0
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "a7103e107818e4e9876bd4e9bc2fcd3050a6a26a0ac223c2dd1a7930339d26f5"
+    version: 0
+    lock_time: 4
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "f702453dd03b0f055e5437d76128141803984fb10acb85fc3b2184fae2f3fa78"
+    version: 0
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "f702453dd03b0f055e5437d76128141803984fb10acb85fc3b2184fae2f3fa78"
+    version: 0
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "f702453dd03b0f055e5437d76128141803984fb10acb85fc3b2184fae2f3fa78"
+    version: 0
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+constraints {
+  ancestor_count_limit: 0
+  ancestor_size_limit: 0
+  descendant_count_limit: 0
+  descendant_size_limit: 4
+  max_mempool: 0
+  mempool_expiry: 4
+}
+require_standard: false

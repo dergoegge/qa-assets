@@ -1,0 +1,46 @@
+atmp_events {
+  transaction {
+    txid: "4bf1d2f5455e4ca60bbbf422dfff602ef95fcf0b9f84398797c2ac16b01bf744"
+    inputs {
+      prev_out {
+        txid: "5265fd5c7735d153d0e3343c40a7c841f8a4c055fa37eeaf1a0e2299d948ca04"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 1
+      witness_stack: "Q"
+    }
+    inputs {
+      prev_out {
+        txid: "ea3a40d44b41851e8a7ba9710019f6c8856ffb64cd17fdf27a5a7e1297210f6f"
+        n: 0
+      }
+      script_sig {
+        raw: "k"
+      }
+      sequence: 3
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 1
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: false
+}
+constraints {
+  ancestor_count_limit: 0
+  ancestor_size_limit: 0
+  descendant_count_limit: 8
+  descendant_size_limit: 0
+  max_mempool: 0
+  mempool_expiry: 0
+}
+require_standard: false

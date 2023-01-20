@@ -1,0 +1,61 @@
+atmp_events {
+  transaction {
+    txid: "ff82da4aef9cf4cc75eba8543ce797d69a7551af083e140a2fea53b01efa0a77"
+    inputs {
+      prev_out {
+        txid: "9c8b26cc13fd9bc44dd1dc50e58635835773ba729f9d447c7d43f994ec5d1e6"
+        n: 0
+      }
+      script_sig {
+        raw: "M\000\003atmp_events {\n  transactatmp_events {\n  transaction {\n    tx184fae2f3fa78\"\n    version: 0\n    lock_time: 0\n  }\n  rolling_fee_update: true\n  bypass_limits: false\n}\natmp_events {\n  transaction {\n    txid: \"c73b2bb13b75c61c0968aa052138854b2281205c6cdf57a59138854b2281205c6cdf57a59eede2ecdd23f4f6\"\n    inputs {\n      prev_out {\n true\n  bypass_limits: false\n}\natmp_events {\n  transaction {\n    txid: \"c73b2bb13b75c61c0968aa052138854b2281205c6cdf57a59138854b2281205c6cdf57a59eede2ecdd23f4f6\"\n    inputs {\n      pre01\\000ssssssssssssssssssssssssssssssssssssssssssssssssssssSSSSSSS\\250\\254\\254\\254\\t\\t\\tSSSSSS\"\n      }\n      sequence: 4\n      witness_stack: \"Q\"\n    }\n    outputs {\n      value: 9\n      script_pub_key {\n        raw: \"\\000 J\\350\\025r\\360n\\ion {\n    txid: \"bfcfe29aa2754f758854162b29c265b0c3"
+      }
+      sequence: 0
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 1
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "ff82da4aef9cf4cc75eba8543ce797d69a7551af083e140a2fea53b01efa0a77"
+    inputs {
+      prev_out {
+        txid: "9c8b26cc13fd9bc44dd1dc50e58635835773ba729f9d447c7d43f994ec5d1e6"
+        n: 0
+      }
+      script_sig {
+        raw: "M\000\003atmp_events {\n  transactatmp_events {\n  transaction {\n    tx184fae2f3fa78\"\n    version: 0\n    lock_time: 0\n  }\n  rolling_fee_update: true\n  bypass_limits: false\n}\natmp_events {\n  transaction {\n    txid: \"c73b2bb13b75c61c0968aa052138854b2281205c6cdf57a59138854b2281205c6cdf57a59eede2ecdd23f4f6\"\n    inputs {\n      prev_out {\n true\n  bypass_limits: false\n}\natmp_events {\n  transaction {\n    txid: \"c73b2bb13b75c61c0968aa052138854b2281205c6cdf57a59138854b2281205c6cdf57a59eede2ecdd23f4f6\"\n    inputs {\n      pre01\\000ssssssssssssssssssssssssssssssssssssssssssssssssssssSSSSSSS\\250\\254\\254\\254\\t\\t\\tSSSSSS\"\n      }\n      sequence: 4\n      witness_stack: \"Q\"\n    }\n    outputs {\n      value: 9\n      script_pub_key {\n        raw: \"\\000 J\\350\\025r\\360n\\ion {\n    txid: \"bfcfe29aa2754f758854162b29c265b0c3"
+      }
+      sequence: 0
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 1
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+constraints {
+  ancestor_count_limit: 0
+  ancestor_size_limit: 0
+  descendant_count_limit: 8
+  descendant_size_limit: 0
+  max_mempool: 0
+  mempool_expiry: 0
+}
+require_standard: false

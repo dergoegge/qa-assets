@@ -1,0 +1,139 @@
+atmp_events {
+  transaction {
+    txid: "e9f93e8666e5b6712ad035ed970aeb3a2dfb98a5c2c89b52d9182478789edd3d"
+    inputs {
+      prev_out {
+        txid: "8e3fac4988de45471570c02d57fccf40d75e8f523988253fdc10b88599f62171"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 1296688638
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 1
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "8d3ce6c1a12d3950fd94df052fa65ae9f591e9eb4275fea693ffddbade7506b1"
+    inputs {
+      prev_out {
+        txid: "8e3fac4988de45471570c02d57fccf40d75e8f523988253fdc10b88599f62171"
+        n: 0
+      }
+      script_sig {
+        raw: "Q"
+      }
+      sequence: 0
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 0
+    lock_time: 9
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "24afd50c7973d84ad10a9bb5985ace6757ec6367faf02b39d619d2cb0974fb5b"
+    inputs {
+      prev_out {
+        txid: "8e3fac4988de45471570c02d57fccf40d75e8f523988253fdc10b88599f62171"
+        n: 0
+      }
+      script_sig {
+        raw: "Q"
+      }
+      sequence: 9
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 1
+    lock_time: 9
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "6c7f5a2c1b97bf3e20e57c9472dd9ae5e6748be2b32ed6f61a8af2e74279dd8d"
+    inputs {
+      prev_out {
+        txid: "8e3fac4988de45471570c02d57fccf40d75e8f523988253fdc10b88599f62171"
+        n: 0
+      }
+      script_sig {
+        raw: " "
+      }
+      sequence: 0
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 1
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "8aa5b5ca1de89362832155e71f21d5fb9bd89a7781b5a2551c76ac0c1457dbad"
+    inputs {
+      prev_out {
+        txid: "8e3fac4988de45471570c02d57fccf40d75e8f523988253fdc10b88599f62171"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+      witness_stack: "Q"
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 1
+    lock_time: 9
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+constraints {
+  ancestor_count_limit: 0
+  ancestor_size_limit: 0
+  descendant_count_limit: 0
+  descendant_size_limit: 0
+  max_mempool: 0
+  mempool_expiry: 0
+}
+require_standard: false

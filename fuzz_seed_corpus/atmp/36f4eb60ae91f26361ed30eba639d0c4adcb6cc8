@@ -1,0 +1,99 @@
+atmp_events {
+  transaction {
+    txid: "440f61376dd5f4aacb7c7461ffcad6cd38b6b9095a0f66f832609fb481539128"
+    inputs {
+      prev_out {
+        txid: "1f44f06572b15fa4557e20d1a9a8d9f290bd3e3a1d2e8ad89f77443d71f579e1"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+    }
+    inputs {
+      prev_out {
+        txid: "1f44f06572b15fa4557e20d1a9a8d9f290bd3e3a1d2e8ad89f77443d71f579e1"
+        n: 4
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+    }
+    inputs {
+      prev_out {
+        txid: "1f44f06572b15fa4557e20d1a9a8d9f290bd3e3a1d2e8ad89f77443d71f579e1"
+        n: 58
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+    }
+    outputs {
+      value: 1
+      script_pub_key {
+        raw: ""
+      }
+    }
+    version: 0
+    lock_time: 0
+  }
+  rolling_fee_update: false
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "440f61376dd5f4aacb7c7461ffcad6cd38b6b9095a0f66f832609fb481539128"
+    inputs {
+      prev_out {
+        txid: "1f44f06572b15fa4557e20d1a9a8d9f290bd3e3a1d2e8ad89f77443d71f579e1"
+        n: 0
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+    }
+    inputs {
+      prev_out {
+        txid: "1f44f06572b15fa4557e20d1a9a8d9f290bd3e3a1d2e8ad89f77443d71f579e1"
+        n: 4
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+    }
+    inputs {
+      prev_out {
+        txid: "1f44f06572b15fa4557e20d1a9a8d9f290bd3e3a1d2e8ad89f77443d71f579e1"
+        n: 58
+      }
+      script_sig {
+        raw: ""
+      }
+      sequence: 0
+    }
+    outputs {
+      value: 1
+      script_pub_key {
+        raw: ""
+      }
+    }
+    version: 0
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+constraints {
+  ancestor_count_limit: 0
+  ancestor_size_limit: 0
+  descendant_count_limit: 0
+  descendant_size_limit: 8192
+  max_mempool: 0
+  mempool_expiry: 0
+}
+require_standard: true

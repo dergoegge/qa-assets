@@ -1,0 +1,111 @@
+atmp_events {
+  transaction {
+    txid: "48b31e160cfe286380476c5cd39edc5d8820b1184cb9f6b4ecb136468b051930"
+    inputs {
+      prev_out {
+        txid: "P"
+        n: 0
+      }
+      script_sig {
+        raw: "L"
+      }
+      sequence: 0
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: ""
+      }
+    }
+    version: 1
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  prioritise_delta: 8
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "cb1938907035ae2384d0ccc31ebc212f72d6d9ec3df1e4b0c4224bde6801f116"
+    inputs {
+      prev_out {
+        txid: "P"
+        n: 0
+      }
+      script_sig {
+        raw: "L"
+      }
+      sequence: 0
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 1
+    lock_time: 128
+  }
+  rolling_fee_update: true
+  prioritise_delta: 8
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "a764b20584c7331111ce19d7d1ae726d6d06a372ec0052b29113cd247b77d786"
+    inputs {
+      prev_out {
+        txid: "\t"
+        n: 0
+      }
+      script_sig {
+        raw: "L"
+      }
+      sequence: 262144
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "L"
+      }
+    }
+    version: 1
+    lock_time: 128
+  }
+  rolling_fee_update: true
+  bypass_limits: false
+}
+atmp_events {
+  transaction {
+    txid: "690dd6ceba3fb6e6dd5c750987b923a9fb84c4cf455f9db56bb4e8e7edbc06f4"
+    inputs {
+      prev_out {
+        txid: "\t"
+        n: 0
+      }
+      script_sig {
+        raw: "L"
+      }
+      sequence: 262144
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 1
+    lock_time: 128
+  }
+  rolling_fee_update: true
+  bypass_limits: false
+}
+constraints {
+  ancestor_count_limit: 0
+  ancestor_size_limit: 4
+  descendant_count_limit: 0
+  descendant_size_limit: 0
+  max_mempool: 0
+  mempool_expiry: 58
+}
+require_standard: true

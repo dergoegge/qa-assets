@@ -1,0 +1,109 @@
+atmp_events {
+  transaction {
+    txid: "361c248882b71650e44a7e427a8a577629a59274dd291c9206673b9c628b59de"
+    inputs {
+      prev_out {
+        txid: "t"
+        n: 65536
+      }
+      script_sig {
+        raw: "LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL"
+      }
+      sequence: 0
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: ""
+      }
+    }
+    version: 1
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "566693c7876b04a02cb637854e4670d3ab0971e831126180fe826b10df1ea297"
+    inputs {
+      prev_out {
+        txid: "258d85812ec8beebb766c7d73f321e5ea0fe5f6b498987acd5feeb5b23ab6cb8"
+        n: 0
+      }
+      script_sig {
+        raw: "LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL"
+      }
+      sequence: 0
+    }
+    outputs {
+      value: 4294967295
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 1
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "98a381eb997c3506d5049ae520305dc295cc914e3506e3a5211717947b6e8d3a"
+    inputs {
+      prev_out {
+        txid: "t"
+        n: 0
+      }
+      script_sig {
+        raw: "LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL"
+      }
+      sequence: 0
+    }
+    outputs {
+      value: 50331648
+      script_pub_key {
+        raw: "\000 J\350\025r\360n\033\210\375\\\355z\032\000\tEC.\203\341U\036or\036\351\300\013\214\3032`"
+      }
+    }
+    version: 1
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+atmp_events {
+  transaction {
+    txid: "310f0af0a43ec9d6904dcaa71bab25ef8e46a526a184065f3ee6712e571a277a"
+    inputs {
+      prev_out {
+        txid: "t"
+        n: 0
+      }
+      script_sig {
+        raw: "LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL"
+      }
+      sequence: 0
+    }
+    outputs {
+      value: 0
+      script_pub_key {
+        raw: "["
+      }
+    }
+    version: 1
+    lock_time: 0
+  }
+  rolling_fee_update: true
+  bypass_limits: true
+}
+constraints {
+  ancestor_count_limit: 0
+  ancestor_size_limit: 0
+  descendant_count_limit: 0
+  descendant_size_limit: 0
+  max_mempool: 0
+  mempool_expiry: 0
+}
+require_standard: true
